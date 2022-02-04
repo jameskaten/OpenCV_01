@@ -1,0 +1,22 @@
+# Built-in camera on/off
+# reference: https://webnautes.tistory.com/1269?category=710851
+#
+
+import cv2 as cv
+# print(cv.__version__)
+
+cap = cv.VideoCapture(0)
+
+while(True):
+    ret, img_color = cap.read()
+    if ret == False:
+        continue;
+
+    cv.imshow('bgr', img_color)
+
+    # CLOSE WITH ESC
+    if cv.waitKey(1) & 0xFF == 27:
+        break
+
+cap.release()
+cv.distroyAllWinsows()
