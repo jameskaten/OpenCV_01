@@ -8,3 +8,5 @@ https://blog.naver.com/nswve/221356491704
 
 # Camera operation 
 ![image](https://user-images.githubusercontent.com/49361619/152483443-094db64a-c03a-4e11-bb79-b0ee8ad56e61.png)
+This is a capture image after opening my camera. 
+
